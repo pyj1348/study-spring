@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/practice?serverTimezone=Asia/Seoul
+    username: root
+    password: rhkdejr12#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none # create라면 생성할 때 있는 테이블을 지우고 다시 생성해준다 drop & create
+    properties:
+      hibernate:
+        # show-sql: true
+        format_sql: true
+        default_batch_fetch_size: 100
+
+    open-in-view: true # false < 트랜젝션 내 지연로딩 초기화 작업 필요
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    # org.hibernate.type: trace
