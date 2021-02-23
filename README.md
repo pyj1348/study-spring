@@ -236,7 +236,6 @@
 
 
 * **Spring Web - REST ful, Spring MVC, Apache Tomcat 내장**
-	
 	- spring-boot-starter-web
 		- spring-boot-starter-tomcat
 		- spring-boot-webmvc
@@ -245,7 +244,7 @@
 * **Spring boot 공통**  
 	- spring-boot-starter
 		- spring-core
-	- -spring-boot-starter-logging
+	- spring-boot-starter-logging
 		- slf4j : 로그를 찍는 인터페이스의 모음
 		- logback : slf4j의 구현체
 
