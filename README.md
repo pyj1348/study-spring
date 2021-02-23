@@ -232,40 +232,37 @@
 
 * **thymeleaf - HTML 생성**  
 	
-    spring-boot-starter-thymeleaf
+	- spring-boot-starter-thymeleaf
 
 
 * **Spring Web - REST ful, Spring MVC, Apache Tomcat 내장**
 	
-    spring-boot-starter-web
-		spring-boot-starter-tomcat
-		spring-boot-webmvc
+	- spring-boot-starter-web
+		- spring-boot-starter-tomcat
+		- spring-boot-webmvc
 
 
 * **Spring boot 공통**  
-	
-    spring-boot-starter
-		spring-core
-	    spring-boot-starter-logging
-		    slf4j - 로그를 찍는 인터페이스의 모음
-		    logback - slf4j의 구현체
+	- spring-boot-starter
+		- spring-core
+	- -spring-boot-starter-logging
+		- slf4j : 로그를 찍는 인터페이스의 모음
+		- logback : slf4j의 구현체
 
 * **JPA (Java Persistence API)**  
-    
-    spring-boot-starter-data-jpa
-        spring-boot-starter-aop
-        spring-boot-starter-jdbc - DB 연결
-            HikariCP - JDBC 2.0버전 이후로 기본적인 DB Connection Pool
-        spring-jdbc
-        hibernate - 자바 표준 JPA의 구현체
+	- spring-boot-starter-data-jpa
+        - spring-boot-starter-aop
+        - spring-boot-starter-jdbc : DB 연결
+        	- HikariCP : JDBC 2.0버전 이후로 기본적인 DB Connection Pool
+        - spring-jdbc
+        - hibernate : 자바 표준 JPA의 구현체
 
 * **Test**  
-	
-    spring-boot-starter-test
-		junit - 테스트 프레임워크
-		mockito - 목 라이브러리
-		assertj - 테스트 코드를 좀 더 편하게 도와주는 라이브러리
-		spring-test - 스프링 통합 테스트 지원
+	- spring-boot-starter-test
+		- junit : 테스트 프레임워크
+		- mockito : 목 라이브러리
+		- assertj : 테스트 코드를 좀 더 편하게 도와주는 라이브러리
+		- spring-test : 스프링 통합 테스트 지원
 
 * **lombok - getter, setter 생성해줌**  
 
