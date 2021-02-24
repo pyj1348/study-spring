@@ -268,7 +268,7 @@
     환경설정에서 build -> compiler -> annotation processor -> Enable 해줘야함
 
 
-### Export
+### Release
 
     1. 해당 프로젝트 디렉토리까지 이동
     2. gradlew.bat build (Win) / gradlew build (Mac)
