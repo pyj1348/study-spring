@@ -7,12 +7,14 @@
     JVM 기반의 애플리케이션을 개발할 때 필요한 많은 기능을 편리하게 제공하는 강력한 프레임워크
     객체를 생성하고 해지하는 등의 모든 객체 "생명주기"를 알아서 관리
     IOC, DL, DI 등의 기술과 개념 적용
+    개발자의 로우레벨 실수(생명주기, 메모리, JDBC 커넥션 등)를 줄이기 위해 등장
     Bean, Repository, Service 등등을 이용
     Entity Manager의 생명주기 관리
 
 
 ### 2. Spring-boot
 
+    Spring을 더 편리하게 사용할 수 있게 해줌
     Spring이 제공하는 기능들을 사용하기 위해서는 많은 복잡한 환경설정을 진행해야하는데 이를 스프링부트가 많은 부분 자동 셋업해주고
     dependencies 등등을 자동으로 설정해준다
 
@@ -28,7 +30,7 @@
 
 ### 4. JPA (Java Persistence API)
 
-    객체 지향 프로그래밍(ORM)을 지원하기 위한 Java 표준 API (javax.persistence)
+    객체 지향 프로그래밍과 객체 관계 매핑(ORM)를 장려하기 위한 Java 표준 API (javax.persistence)
     이를 구현체로 만든 것이 Hibernate, EclipseLink ...
     관계형 데이터베이스를 사용하는 방법에 대한 명시를 해준 Interface
     JPQL(Java Persistence Query Language) 사용
