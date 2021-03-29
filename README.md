@@ -223,7 +223,7 @@
 
 * **logback, slf4j**  
 
-    log와 관련된 라이브러리, logback를 더 많이 쓴다
+    log와 관련된 라이브러리
     
 
 * **junit, assertj, mockito**  
@@ -361,7 +361,7 @@
     EntityManager를 통한 모든 데이터 변경은 Transaction 안에서 이루어져야 한다 (@Transactional)
 
     원래 EntityManager는 @PersistenceContext를 써줘야하는데
-    Spring-data-JAP에서 @Autowired로 써도 되도록 지원해줌
+    Spring-data-JPA에서는 @Autowired로 써도 되도록 지원해줌
     
     즉, 일반 DI처럼 사용해도 무방
     
