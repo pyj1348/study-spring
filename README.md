@@ -44,7 +44,7 @@
 ### 5. Sping-Data-JPA
 
     JPA를 한단계 더 추상화시켜 더 간편하게 JPA 기술을 사용할 수 있게 만드는 모듈
-    기존에 사용하던 Entity Manager 또한 사용하지 않아도 되는 JPARepository라는 인터페이스 제공
+    기존에 사용하던 Entity Manager 또한 사용하지 않아도 되고 Repository 인터페이스의 구현체를 따로 만들지 않아도 함수 이름과 파라미터를 기반으로 자동으로 SQL을 생성해준다
     JPA의 반복적인 코드를 자동화 해준다
     Repositroy의 기본 구현체인 @SimpleJpaRepository는 내부적으로 EntityManager를 사용하고 있음
 
